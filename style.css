@@ -1,0 +1,152 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    margin: 0 auto; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+        padding: 0 auto;
+
+}
+.content{
+    flex: 1;
+}
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.hero{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 60px 0;
+}
+.hero-left{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.hero-img-div{
+    /* width: 250px; */
+}
+.hero-img{
+    width: 400px;
+    height: 200px;
+}
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    align-items: flex-start;
+}
+p{
+    color: #E5E7EB;
+    font-size: 18px;
+    align-items: flex-start;
+    /* width: 250px; */
+}
+
+
+.header , .hero , .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.info-title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 37px;
+    font-weight: 300;
+    font-style: italic;
+}
+.footer{
+    width: 100%;
+
+}
+
+
+
+
+
+
+/* body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.header , .hero , .footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 24px;
+}
+.hero-main-text{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.hero-secondary-p{
+    color: hero-secondary-p;
+    font-size: 18px;
+}
+button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+.info-title{
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+}
+.quote{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 37px;
+    font-weight: 300;
+    font-style: italic;
+}
+.hero , .info, .quote , .sign-up{
+    
+}
+.header , .footer{
+} */
